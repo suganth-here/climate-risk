@@ -1,0 +1,42 @@
+{
+  "model_type": "linear_regression_numpy",
+  "intercept": 2.749358717633695,
+  "weights": {
+    "latitude": -0.756763500087995,
+    "longitude": 1.2197824592887978,
+    "loan_amount": -1.0456077293996557e-05,
+    "property_value": 1.3381823179781094e-05,
+    "tenure_years": -6.974328773565534,
+    "loan_to_value": 2.200804574435516,
+    "asset_Commercial": 5.269853166503633,
+    "asset_Industrial": -2.543645729566222,
+    "asset_Infrastructure": -6.552081663067553,
+    "asset_Residential": 6.575232909644352
+  },
+  "metadata": {
+    "feature_columns": [
+      "latitude",
+      "longitude",
+      "loan_amount",
+      "property_value",
+      "tenure_years",
+      "loan_to_value",
+      "asset_Commercial",
+      "asset_Industrial",
+      "asset_Infrastructure",
+      "asset_Residential"
+    ],
+    "asset_categories": [
+      "Commercial",
+      "Industrial",
+      "Infrastructure",
+      "Residential"
+    ]
+  },
+  "metrics": {
+    "test_mae": 36.2036,
+    "test_r2": -10.7709,
+    "train_rows": 8,
+    "test_rows": 2
+  }
+}

@@ -1,0 +1,13 @@
+﻿Climate Loan Rejection Report
+Generated on: 2026-02-18
+
+Context used:
+- Projection Start Year: 2026
+- Tenure: 15 years
+- Evaluated set: India state presets in app.py
+
+Places with Loan Decision = Not Approved:
+1. Odisha
+2. Arunachal Pradesh
+
+Rejection count: 2

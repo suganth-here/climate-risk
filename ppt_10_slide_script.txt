@@ -1,0 +1,149 @@
+PPT TITLE: Climate Loan Risk Assistant
+Format: 10 Slides, Exact Speaking Script, Role-Based
+Total Time Target: 8-10 minutes
+
+Slide 1 - Title and Team (Speaker: Sanjeeva, 45 sec)
+On slide:
+- Project: Climate Loan Risk Assistant
+- Team members and roles
+
+Speak exactly:
+"Good morning judges. We are Team Climate Loan Risk Assistant.
+I am Sanjeeva, Team Lead and AI Developer.
+My teammates are Suganth, Data and Climate Risk Analyst, and Siva Surya, UI and Visualization Lead.
+Our project helps lenders include climate intelligence in loan decisions."
+
+
+Slide 2 - Problem Statement (Speaker: Sanjeeva, 55 sec)
+On slide:
+- Traditional lending checks credit and income
+- Climate risk is often ignored
+- Long-term property risk affects repayment and asset value
+
+Speak exactly:
+"Current loan underwriting mainly focuses on applicant financial history.
+But property-level climate risk is often not modeled clearly.
+That means lenders may approve loans in high flood, cyclone, heat, or coastal-risk areas without long-term risk visibility.
+Our project addresses this gap with explainable climate-aware lending support."
+
+
+Slide 3 - Official Input and Output (Speaker: Sanjeeva, 70 sec)
+On slide:
+Input:
+- Geolocation data for 50,000 loan-backed properties combined with long-term climate projection datasets.
+
+Output:
+- Property-ID assigned Climate Credit Score.
+- Loan Pricing Adjustment.
+- Portfolio Risk Alert.
+- Explainability Log.
+
+Speak exactly:
+"For this presentation, this is our official project input and output definition.
+Input is geolocation data for 50,000 loan-backed properties combined with long-term climate projection datasets.
+Output has four parts.
+First, property-level Climate Credit Score.
+Second, Loan Pricing Adjustment.
+Third, Portfolio Risk Alert.
+Fourth, Explainability Log that clearly explains why the score was generated."
+
+
+Slide 4 - System Architecture and Stack (Speaker: Sanjeeva, 55 sec)
+On slide:
+- Frontend: React JS
+- Backend: Django APIs
+- Core ML/risk logic: Python modules
+- Data and artifacts: dataset and artifacts folders
+
+Speak exactly:
+"We implemented this as a modern full-stack system.
+React handles user interaction and report visualization.
+Django provides backend APIs.
+Core climate and ML logic remains in Python modules.
+Datasets and model artifacts are loaded from local project folders, so our analysis pipeline is stable and reproducible."
+
+
+Slide 5 - Data Foundation (Speaker: Suganth, 60 sec)
+On slide:
+- Cyclone, flood, rainfall, temperature, coastline, and extreme temperature datasets
+- Location-based climate risk analysis
+- Data cleaning and consistency checks
+
+Speak exactly:
+"I handled data and climate-risk analysis.
+We use cleaned datasets for cyclone, flood, annual rainfall, maximum temperature, coastline points, and extreme temperature records.
+Our location-based method links geospatial inputs with climate signals.
+This gives a reliable base for Climate Credit Score and portfolio-level risk intelligence."
+
+
+Slide 6 - Core Logic Behind the 4 Outputs (Speaker: Sanjeeva, 75 sec)
+On slide:
+- Climate feature extraction per property location
+- Long-term risk projection
+- Scoring and policy mapping
+- Explainability generation
+
+Speak exactly:
+"Our backend converts geolocation plus climate projections into four outputs.
+First, it extracts climate risk features for each property location.
+Then it computes long-term risk trends.
+Next, it maps risk to Climate Credit Score and Loan Pricing Adjustment rules.
+At portfolio level, it generates Portfolio Risk Alert summaries.
+Finally, it produces an Explainability Log that states the major climate factors behind the result."
+
+
+Slide 7 - UI and Report Presentation (Speaker: Siva Surya, 60 sec)
+On slide:
+- Clear output cards and readable report layout
+- Distinct visual presentation for each output category
+- Easy-to-understand explanation format
+
+Speak exactly:
+"I focused on presenting the outputs clearly for non-technical and technical users.
+The interface separates each result category so users can quickly understand score, pricing adjustment, portfolio alert, and explanation.
+The report style is designed for decision meetings, not just technical analysis."
+
+
+Slide 8 - Demo Flow (Speaker: Siva Surya, 75 sec)
+On slide:
+- Step 1: Load geolocation + long-term climate input data
+- Step 2: Run analysis
+- Step 3: Display 4 outputs
+
+Speak exactly:
+"In the demo, we load the defined input dataset.
+Then we run the model pipeline.
+The system returns exactly four outputs:
+Climate Credit Score for properties, Loan Pricing Adjustment, Portfolio Risk Alert, and Explainability Log.
+This keeps the result format consistent and practical for lending teams."
+
+
+Slide 9 - Impact, Limitations, and Future Scope (Speaker: Suganth, 75 sec)
+On slide:
+- Impact: safer and climate-aware lending decisions
+- Limitation: projection quality depends on source data resolution
+- Future: higher-resolution feeds and richer climate scenarios
+
+Speak exactly:
+"The impact is better lending risk visibility under climate uncertainty.
+Financial institutions can identify vulnerable assets earlier and make safer decisions.
+Current output quality depends on the available climate data resolution.
+Future work includes richer scenarios, better geospatial granularity, and real-time climate data integration."
+
+
+Slide 10 - Closing Pitch and Q&A (Speaker: Sanjeeva, 50 sec)
+On slide:
+- Input-to-output clarity
+- Explainable climate-risk intelligence
+- Thank you and Q&A
+
+Speak exactly:
+"Our project turns one clear input type into four decision-ready outputs for climate-aware lending.
+It is explainable, practical, and built on a scalable React plus Django architecture.
+Thank you for your time. We are ready for your questions."
+
+
+Quick Handoff Cues
+- Slide 4 to 5: "Now Suganth will cover the data foundation."
+- Slide 6 to 7: "Now Siva Surya will present the UI and report delivery."
+- Slide 9 to 10: "I hand over to Sanjeeva for final closing."
